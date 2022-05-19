@@ -22,7 +22,12 @@ const Layout = ({ children }) => {
                 </li>
                 <li className="hover:text-black">
                   <Link href="/RuleChanges">
-                    Rule Changes and End-Season Rosters
+                    Rule Changes
+                  </Link>
+                </li>
+                <li className="hover:text-black">
+                  <Link href="/EndSeasonRosters">
+                    2021 End of Season Rosters
                   </Link>
                 </li>
                 <li className="hover:text-black">
