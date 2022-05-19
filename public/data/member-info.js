@@ -15,7 +15,7 @@ export const members_info = [
     best: "2nd (2016)",
     worst: "8th (2020)",
     description:
-      "The man with the heart of a champion, but usually the roster of a fringe playoff team. However, he is beloved by all and quite possibly the most athletic guy in this group of 30+ year olds. A member of The Kingdom, his loyalty and selflessness is never overlooked. He may just be the heart and soul of The Kingdom and his drive and will shall take him to a championship on due time.",
+      "The man with the heart of a champion, but usually the roster of a fringe playoff team. However, he is beloved by all and quite possibly the most athletic guy in this group of 30+ year olds. A member of The Kingdom, his loyalty and selflessness is never overlooked. He may just be the heart and soul of The Kingdom and his drive and will shall take him to a championship in due time.",
   },
   {
     image: "/images/Bryan.jpeg",
@@ -59,7 +59,7 @@ export const members_info = [
     championships: '0',
     best: '3rd (2016)',
     worst: '9th (2017)',
-    description: "So many things can be said about this man. For a man that is never prepared for the draft and constantly gets screwed over in trades, it's amazing that he has never come in 10th place. Obviously the 2016 season must have been some sort of fluke. Credit where it is due though, this man is constantly beat down verbally and in the almost every matchup, but he keeps coming back for more each season. Also, a very high playoff win percentage, eventhough most of his playoff match ups are in the loser bracket."
+    description: "So many things can be said about this man. For a man that is never prepared for the draft and constantly gets screwed over in trades, it's amazing that he has never come in 10th place. Obviously the 2016 season must have been some sort of fluke. Credit where it is due though, this man is constantly beat down verbally and in almost every matchup, but he keeps coming back for more each season. Also, a very high playoff win percentage, eventhough most of his playoff match ups are in the loser bracket."
   },
   {
     image: "/images/JJ.jpeg",
@@ -86,6 +86,6 @@ export const members_info = [
     best: "2nd (2018)",
     worst: "10th (2016)",
     description:
-      "Fate and destiny are two things this man talks a lot about. But he has a point. Things must obviously be against him since he has not yet won many championships. The self proclaimed Nightmare Prince, he founded The Kingdom to take out the unfairness and collusion in the league. He is leading an unholy crusade and he marches his way to his long overdue championship. (Obviously he's actually just not that good at this and maybe he should consider a trade or 2, but we'll stick with the narrative he's throwing out there for now)",
+      "Fate and destiny are two things this man talks a lot about. But he has a point. Things must obviously be against him since he has not yet won many championships. The self proclaimed Nightmare Prince, he founded The Kingdom to take out the unfairness and collusion in the league. He is leading an unholy crusade as he marches his way to his long overdue championship. (Obviously he's actually just not that good at this and maybe he should consider a trade or 2, but we'll stick with the narrative he's throwing out there for now)",
   },
 ];
