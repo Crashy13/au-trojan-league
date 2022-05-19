@@ -7,7 +7,7 @@ const historicalStandings = () => {
       {historical_standings.map((stats) => {
         return (
           <>
-            <div className='border-black border-2 w-1/2 text-center mx-auto my-2'>
+            <div className='border-black border-2 w-11/12 md:w-1/2 text-center mx-auto my-2'>
               <p className='text-xl text-yellow-600 font-extrabold my-3'>{stats.name}</p>
               <p>Regular Season Wins: {stats.total_wins}</p>
               <p>Regular Season Losses: {stats.total_losses}</p>
