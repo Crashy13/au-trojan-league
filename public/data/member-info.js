@@ -54,6 +54,14 @@ export const members_info = [
       "3 time champ and only one to never finish worse than 7th. Obviously he is cheating.",
   },
   {
+    image: '/images/Kyle.jpeg',
+    name: 'Kyle Wright',
+    championships: '0',
+    best: '3rd (2016)',
+    worst: '9th (2017)',
+    description: "So many things can be said about this man. For a man that is never prepared for the draft and constantly gets screwed over in trades, it's amazing that he has never come in 10th place. Obviously the 2016 season must have been some sort of fluke. Credit where it is due though, this man is constantly beat down verbally and in the almost every matchup, but he keeps coming back for more each season. Also, a very high playoff win percentage, eventhough most of his playoff match ups are in the loser bracket."
+  },
+  {
     image: "/images/JJ.jpeg",
     name: "Justin Jones",
     championships: "2",
@@ -73,11 +81,10 @@ export const members_info = [
   },
   {
     image: "/images/Scotty.jpeg",
-    name: "Scotty 'The Future' Wyatt",
-    championships: "0 so far...",
+    name: "Scotty Wyatt",
+    championships: "0",
     best: "2nd (2018)",
-    worst:
-      "10th (2016) *he was homeless at the time so it shouldn't be counted*",
+    worst: "10th (2016)",
     description:
       "Fate and destiny are two things this man talks a lot about. But he has a point. Things must obviously be against him since he has not yet won many championships. The self proclaimed Nightmare Prince, he founded The Kingdom to take out the unfairness and collusion in the league. He is leading an unholy crusade and he marches his way to his long overdue championship. (Obviously he's actually just not that good at this and maybe he should consider a trade or 2, but we'll stick with the narrative he's throwing out there for now)",
   },
