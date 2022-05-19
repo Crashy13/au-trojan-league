@@ -22,7 +22,7 @@ export default function Home() {
             Meet The Crew
           </h2>
 
-          <div className='mx-auto w-1/2 text-center grid gap-6'>
+          <div className='mx-auto w-11/12 md:w-1/2 text-center grid gap-6'>
             {members_info.map((member) => {
               return (
                 <>
