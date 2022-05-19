@@ -42,7 +42,7 @@ export const members_info = [
     best: "Champ (2016)",
     worst: "9th (2018)",
     description:
-      "Every group needs their attractive, sexy beast, and the AU Trojan League outdid themselves with this specimen. No only is he the sexiest man alive, but also the nicest and kindest person ever. He deserves so much better than this group, but hopefully he will never realize that. He also has the prestige of having his name on the trophy, despite his love for muscular white men.",
+      "Every group needs their attractive, sexy beast, and the AU Trojan League outdid themselves with this specimen. Not only is he the sexiest man alive, but also the nicest and kindest person ever. He deserves so much better than this group, but hopefully he will never realize that. He also has the prestige of having his name on the trophy, despite his love for muscular white men.",
   },
   {
     image: "/images/Funderburk.jpeg",
