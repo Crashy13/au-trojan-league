@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
                   <Link href="/HistoricalStandings">Historical Standings</Link>
                 </li>
                 <li className="hover:text-black">
-                  <Link href="/CurrentDraftAndTrades">Drafts and Trades</Link>
+                  <a target='_blank' rel='noreferrer noopener' href="https://docs.google.com/spreadsheets/d/1Oh1bDNljCzt2LqX_BnXgkgj99naXJ0rCGoIacx-Xhd0/edit#gid=1043776464">Drafts and Trades</a>
                 </li>
                 <li className="hover:text-black">
                   <Link href="/RuleChanges">
