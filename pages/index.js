@@ -30,7 +30,6 @@ export default function Home() {
           <ReactPlayer
             url="/video/NightmarePrincePromo1.mp4"
             light="true"
-            playing={true}
             controls={true}
           ></ReactPlayer>
         </div>
