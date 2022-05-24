@@ -12,10 +12,13 @@ export default function Home() {
       </Head>
 
       <div>
-        <div className="flex justify-center">
+        <div className="flex-col text-center mb-20">
           <h1 className="text-5xl my-10 font-extrabold">
             Home of the AU Trojan Fantasy Football League
           </h1>
+          <Image src='/images/Group.jpeg' alt='Group photo' width={700} height={600}>
+
+          </Image>
         </div>
         <div>
           <h2 className="flex justify-center text-3xl font-bold mb-4">
@@ -30,8 +33,8 @@ export default function Home() {
                     <Image
                       src={member.image}
                       alt="photo of member"
-                      width={200}
-                      height={200}
+                      width={300}
+                      height={300}
                     ></Image>
                     <h3 className="text-2xl my-2">Name: {member.name}</h3>
                     <p className='my-2'>Championships: {member.championships}</p>
