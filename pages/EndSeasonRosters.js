@@ -1,15 +1,19 @@
 import React from "react";
-import { end_season_roster_1, end_season_roster_2 } from "../public/data/end-season-rosters";
+import {
+  end_season_roster_1,
+  end_season_roster_2,
+} from "../public/data/end-season-rosters";
 
 const EndSeasonRosters = () => {
   return (
-    <div className='px-10'>
-        <h1 className="text-6xl text-center text-yellow-600 my-10">2021 End of Season Rosters</h1>
+    <div className="px-10">
+      <h1 className="text-6xl text-center text-yellow-600 my-10">
+        2021 End of Season Rosters
+      </h1>
       <div className="lg:flex w-full gap-40 xl:gap-60">
         {end_season_roster_1.map((roster) => {
           return (
-            <>
-              <div>
+              <div key={roster.id}>
                 <h1 className="text-2xl my-2 text-white">{roster.name}</h1>
                 <p>1: {roster.one}</p>
                 <p>2: {roster.two}</p>
@@ -30,16 +34,16 @@ const EndSeasonRosters = () => {
                 <p>17: {roster.seventeen}</p>
                 <p>18: {roster.eighteen}</p>
               </div>
-            </>
           );
         })}
       </div>
       <div className="lg:flex w-full gap-40 xl:gap-60">
         {end_season_roster_2.map((roster) => {
           return (
-            <>
-              <div>
-                <h1 className="text-2xl mt-10 mb-2 text-white">{roster.name}</h1>
+              <div key={roster.id}>
+                <h1 className="text-2xl mt-10 mb-2 text-white">
+                  {roster.name}
+                </h1>
                 <p>1: {roster.one}</p>
                 <p>2: {roster.two}</p>
                 <p>3: {roster.three}</p>
@@ -59,7 +63,6 @@ const EndSeasonRosters = () => {
                 <p>17: {roster.seventeen}</p>
                 <p>18: {roster.eighteen}</p>
               </div>
-            </>
           );
         })}
       </div>
