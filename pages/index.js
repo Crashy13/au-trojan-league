@@ -26,14 +26,6 @@ export default function Home() {
           ></Image>
         </div>
 
-        <div className="flex justify-center">
-          <ReactPlayer
-            url="/video/NightmarePrincePromo1.mp4"
-            light="true"
-            controls={true}
-          ></ReactPlayer>
-        </div>
-
         <div>
           <h2 className="flex justify-center text-3xl font-bold mb-4">
             Meet The Crew
