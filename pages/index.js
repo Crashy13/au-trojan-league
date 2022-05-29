@@ -10,6 +10,8 @@ export default function Home() {
       <Head>
         <title>AU Trojan League</title>
         <meta name="description" content="Home of the AU Trojan League" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -24,6 +26,11 @@ export default function Home() {
             width={700}
             height={600}
           ></Image>
+        </div>
+
+        <div className='text-center my-10'>
+          <h1 className="text-4xl font-extrabold font-fira">Draft Date: August 26</h1>
+          <h2>Time and Date still TBD</h2>
         </div>
 
         <div>
