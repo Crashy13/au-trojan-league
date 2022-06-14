@@ -9,7 +9,7 @@ const historicalStandings = () => {
         {historical_standings.map((stats) => {
           return (
               <div
-                className="border-black border-2 w-11/12 md:w-1/2 text-center mx-auto my-2"
+                className="border-yellow-600 border-4 bg-black text-white w-11/12 md:w-1/2 text-center mx-auto my-2 pb-2"
                 key={stats.id}
               >
                 <p className="text-xl text-yellow-600 font-extrabold my-3">
@@ -44,10 +44,10 @@ const historicalStandings = () => {
         {defunct_franchises.map((defunct) => {
           return (
               <div
-                className="border-white border-2 w-11/12 md:w-1/2 text-center mx-auto my-2"
+                className="border-black border-2 bg-yellow-600 w-11/12 md:w-1/2 text-center mx-auto my-2"
                 key={defunct.id}
               >
-                <p className="text-xl text-yellow-600 font-extrabold my-3">
+                <p className="text-xl text-black font-extrabold my-3">
                   {defunct.name}
                 </p>
                 <p>Regular Season Wins: {defunct.total_wins}</p>

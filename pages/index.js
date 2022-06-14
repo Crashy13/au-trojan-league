@@ -28,9 +28,11 @@ export default function Home() {
           ></Image>
         </div>
 
-        <div className='text-center my-10'>
-          <h1 className="text-4xl font-extrabold font-fira">Draft Date: August 26</h1>
-          <h2>Time and Date still TBD</h2>
+        <div className="text-center my-10">
+          <h1 className="text-4xl font-extrabold font-fira">
+            Draft Date: August 26
+          </h1>
+          <h2>Time and Place still TBD</h2>
         </div>
 
         <div>
@@ -41,18 +43,28 @@ export default function Home() {
           <div className="mx-auto w-11/12 md:w-1/2 text-center grid gap-6">
             {members_info.map((member) => {
               return (
-                <div key={member.id}>
-                  <Image
-                    src={member.image}
-                    alt="photo of member"
-                    width={300}
-                    height={300}
-                  ></Image>
-                  <h3 className="text-2xl my-2">Name: {member.name}</h3>
-                  <p className="my-2">Championships: {member.championships}</p>
-                  <p className="my-2">Best Finish: {member.best}</p>
-                  <p className="my-2">Worst Finish: {member.worst}</p>
-                  <p className="my-2">{member.description}</p>
+                <div
+                  className="flex p-2 border-4 border-yellow-600 bg-black text-white"
+                  key={member.id}
+                >
+                  <div className="">
+                    <Image
+                      src={member.image}
+                      alt="photo of member"
+                      width={600}
+                      height={600}
+                    ></Image>
+                  </div>
+
+                  <div>
+                    <h3 className="text-2xl my-2">Name: {member.name}</h3>
+                    <p className="my-2">
+                      Championships: {member.championships}
+                    </p>
+                    <p className="my-2">Best Finish: {member.best}</p>
+                    <p className="my-2">Worst Finish: {member.worst}</p>
+                    <p className="my-2">{member.description}</p>
+                  </div>
                 </div>
               );
             })}
