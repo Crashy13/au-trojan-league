@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 
 const Layout = ({ children }) => {
-
   return (
     <>
       <div className="h-full bg-slate-300 w-full">
@@ -40,7 +39,7 @@ const Layout = ({ children }) => {
                 </li>
                 <li className="hover:text-black" key={children.id}>
                   <Link href="/EndSeasonRosters">
-                    2021 End of Season Rosters
+                    2022 End of Season Rosters
                   </Link>
                 </li>
                 <li className="hover:text-black" key={children.id}>
