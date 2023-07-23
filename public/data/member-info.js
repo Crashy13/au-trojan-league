@@ -9,7 +9,7 @@ export const members_info = [
       'The Commissioner that started it all. He brought together a group of friends to compete for a prize and created the best group ever. There are those that say he is "crooked" and "it is suspect that he won the championship in the first season", and those people are not neccessarily wrong. Regardless, he is seen as the leader of this ragtag group and does a bang up job each season, even if he is now colluding with the most successful man in the league.',
   },
   {
-    image: "/images/AJTroyNoHelmet.jpeg",
+    image: "/images/AJ.jpeg",
     name: "AJ Fakoornejad",
     championships: "0",
     best: "2nd (2016)",
@@ -29,8 +29,8 @@ export const members_info = [
   {
     image: "/images/Camden.jpeg",
     name: "Camden Young",
-    championships: "0",
-    best: "2nd (2020)",
+    championships: "1",
+    best: "Champ (2022)",
     worst: "10th (2017)",
     description:
       "The man on his way to fame and stardom by cohosting Underground Nerd Nation (available on YouTube and maybe anywhere you listen to your favorite podcasts), this man still slums it up with his old friends and brings so much joy and levity to the group. Another member of The Kingdom, he has been inching ever closer to that first championship. With his looks, his love of sports and all things nerdy, some might say he is the perfect man.",
@@ -40,12 +40,12 @@ export const members_info = [
     name: "Chris Haynes",
     championships: "1",
     best: "Champ (2016)",
-    worst: "9th (2018)",
+    worst: "10th (2022)",
     description:
       "Every group needs their attractive, sexy beast, and the AU Trojan League outdid themselves with this specimen. Not only is he the sexiest man alive, but also the nicest and kindest person ever. He deserves so much better than this group, but hopefully he will never realize that. He also has the prestige of having his name on the trophy, despite his love for muscular white men.",
   },
   {
-    image: "/images/FunderburkCoach.jpeg",
+    image: "/images/Funderburk.jpeg",
     name: "Justin Funderburk",
     championships: "3",
     best: "Champ (2018, 2020, 2021)",
@@ -54,12 +54,13 @@ export const members_info = [
       "Sadly, this man is the mark of excellence in this group. He has 3 titles, all in the past 4 seasons, currently going back to back. He has also never finished worse than 7th, which is once again the best of this group. While he may be vile and disgusting, his success can't be denied. Is he colluding with the commish? We may never know. But there is no doubt he is currently the greatest AU Trojan League member and is ready for a fall from grace.",
   },
   {
-    image: '/images/KyleDog.jpeg',
-    name: 'Kyle Wright',
-    championships: '0',
-    best: '3rd (2016)',
-    worst: '9th (2017)',
-    description: "So many things can be said about this man. For a man that is never prepared for the draft and constantly gets screwed over in trades, it's amazing that he has never come in 10th place. Obviously the 2016 season must have been some sort of fluke. Credit where it is due though, this man is constantly beat down verbally and in almost every matchup, but he keeps coming back for more each season. Also, a very high playoff win percentage, eventhough most of his playoff match ups are in the loser bracket."
+    image: "/images/Kyle.jpeg",
+    name: "Kyle Wright",
+    championships: "0",
+    best: "2nd (2022)",
+    worst: "9th (2017)",
+    description:
+      "So many things can be said about this man. For a man that is never prepared for the draft and constantly gets screwed over in trades, it's amazing that he has never come in 10th place. Obviously the 2016 season must have been some sort of fluke. Credit where it is due though, this man is constantly beat down verbally and in almost every matchup, but he keeps coming back for more each season. Also, a very high playoff win percentage, eventhough most of his playoff match ups are in the loser bracket.",
   },
   {
     image: "/images/JJBrushBeard.jpeg",

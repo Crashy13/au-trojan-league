@@ -32,7 +32,8 @@ export default function Home() {
           <h1 className="text-4xl font-extrabold font-fira">
             Draft Date: August 26
           </h1>
-          <h2>Time and Place still TBD</h2>
+          <h2>The Manipulator&apos;s Lair</h2>
+          <h3>7:00 pm</h3>
         </div>
 
         <div>
